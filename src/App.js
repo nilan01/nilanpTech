@@ -25,7 +25,7 @@ class App extends Component {
   render() {
     return(
     <div className="App">
-    <Navbar sticky="top">
+    <Navbar>
       <Navbar.Collapse className="justify-content-end">
         <Nav></Nav>
       </Navbar.Collapse>
