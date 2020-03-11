@@ -1,38 +1,126 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar{
+  margin-left: 45px;
+}
+
+#contactLink{
+  margin-right: 30px;
+}
+
+.projectLinks{
+  padding-right: 48px;
+}
+
+
+html{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+body{
+  margin-left: 2%;
+  margin-right: 15%;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+
+.title{
+  color:#777;
+}
+
+.header h3 {
+  display: flex;
+  justify-content: left;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#777;
+  font-weight: lighter;
+}
+
+
+.subHeadings{
+  font-family: 'Merriweather', Georgia, Times, serif;
+  display:flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.subHeadings2{
+  font-family: 'Merriweather', Georgia, Times, serif;
+  display:flex;
+  justify-content: left;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.blogLink{
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    padding-bottom: 0;
+    margin: 0;
+    font-size: 19px;
+    border-bottom: 1px solid #c3c3c3;
+}
+
+.blogDate{
+  font-size: 80%;
+  margin: 0.2em 0em;
+  font-family: 'Merriweather', Georgia, Times, serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.tag, a.tag {
+  display: inline-block;
+  vertical-align: central;
+  font-family: monospace;
+  font-size: 87.5%;
+  padding: 0 0.5em;
+  color: #e83e8c;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  margin-left:60px;
+
+}
+
+.blogDesc {
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-size: 90%;
+  margin: 0 0 2.8rem;
+  color: #737373;
+}
+
+.info{
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 30px;
+  color: #6a737d;
+}
+
+.blogBody{
+  font-family: 'Merriweather', Georgia, Times, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+.img{
+  display: flex;
 }
