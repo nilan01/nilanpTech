@@ -14,7 +14,7 @@
     margin-right: 8%;
   }
   .navbar{
-    margin-left:-5px;
+    margin-left:-20px;
     padding-right: 20px;
   }
 }
@@ -23,14 +23,17 @@
   color: #61dafb;
 }
 
-.navbar{
+.navbar:hover{
   display:flex;
+  color:#FFDC00;
+
 }
 
 .main-nav-active{
   color:#FFDC00;
   font-weight: bolder;
 }
+
 
 #contactLink{
   margin-right: 30px;
