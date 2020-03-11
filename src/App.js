@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import Hello from './Hello';
 import Clock from './Clock';
 import ClickCounter from './ClickCounter';
 import RenderData from './RenderData';
-import HomeMusic from './HomeMusic';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Switch } from 'react-router-dom';
 import Projects from './Projects';
