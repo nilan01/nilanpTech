@@ -10,8 +10,6 @@ class Projects extends Component {
     render() {
         return (
             <div>
-                <hr></hr>
-                <br></br>
                 <h2 class="subHeadings">Projects</h2>
                 <br></br>
                 <CardColumns>
@@ -20,7 +18,7 @@ class Projects extends Component {
                         <Card.Body>
                         <Card.Title>Arduino: Circuit Basics </Card.Title>
                         <Card.Text>
-                            Circuitry Basics
+                            What I learned doing my first project with Arduino Uno (my first post).
                         </Card.Text>
                         <Button href="./blog/robotics-with-arduino-uno" target="" variant="primary">Read Me</Button>
                         </Card.Body>

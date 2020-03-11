@@ -6,8 +6,6 @@ class Blog extends Component {
     render() {
         return (
             <div>
-                <hr></hr>
-                <br></br>
                 <h2 class="subHeadings2">Written Pieces</h2>
                 <br></br>
                 <br></br>

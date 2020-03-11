@@ -6,7 +6,6 @@ import arduino1 from "../projectPhotos/arduino.jpg";
         return (
             
             <div>
-            <hr></hr>
                 <h1>Learning Robotics with Arduino Uno: Circuit Basics</h1>
                 <info class="info" datetime="11 Mar 2020 00:00:00 +0000">11 Mar 2020 · 2 min read
                 </info>
@@ -18,7 +17,7 @@ import arduino1 from "../projectPhotos/arduino.jpg";
                     The kit comes with the Arduino Projects Book, which will walk me through 15 different projects using the <a href="https://store.arduino.cc/usa/arduino-uno-rev3">Arduino Uno</a>.
                     These projects aim to provide a fundamental skillset for anyone interested in the field of <a class="tag" href="/tag/robotics">robotics</a>.
                     Over the next few weeks, I'll be sharing my experience using the <a href="https://store.arduino.cc/usa/fundamentals-bundle">Arduino Fundamentals Starter Kit</a> here! 
-                    I will also be sharing some core fundamental concepts of circuits, robotics, and innovation that I'll have learned through my experimentation on the <a href="https://store.arduino.cc/usa/arduino-uno-rev3">Arduino Uno</a>.
+                    I will also be sharing some core fundamental concepts of circuits, robotics, and innovation that I'll have learned throughout my experimentation on the <a href="https://store.arduino.cc/usa/arduino-uno-rev3">Arduino Uno</a>.
                 </p>
 
                 <h3>Core Concepts: Circuits</h3>
@@ -42,7 +41,6 @@ import arduino1 from "../projectPhotos/arduino.jpg";
                 <p>Ohm's Law demonstrates the relationship between Current, Voltage, & Resistance (discovered by <a href="https://en.wikipedia.org/wiki/Georg_Ohm">Georg Simon Ohm</a>).</p>
                 <p> VOLTAGE (V) = CURRENT (I) * RESISTANCE (R)</p>
                 <img class = "imgCenter"src={arduino1} alt="Arduino Uno" height="400"></img>
-
             </div>
         )
     }

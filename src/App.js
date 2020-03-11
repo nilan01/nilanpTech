@@ -44,9 +44,7 @@ class App extends Component {
     <div>
      
     </div>
-    <br></br>
-    <br></br>
-    
+        
     <Switch>
     <Route exact path='/' render={() => (
       <Projects  />
