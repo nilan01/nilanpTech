@@ -1,5 +1,4 @@
 @media only screen and (max-width: 600px) {
-
   body{
     margin-left: 0%;
     margin-right: 8%;
@@ -16,6 +15,10 @@
   .navbar{
     margin-left:-20px;
     padding-right: 20px;
+  }
+  .imgCenter{
+    display: flex;
+    height: 200px;
   }
 }
 
@@ -148,6 +151,7 @@ body{
     line-height: 24px;
 }
 
-.img{
+.imgCenter{
   display: flex;
+  margin-left:18%;
 }
