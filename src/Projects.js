@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button'
 import tictactoe from "./projectPhotos/tictactoe.PNG";
 import nasapic from "./projectPhotos/NASA.PNG";
 import arduino1 from "./projectPhotos/arduino.jpg";
+import love from "./projectPhotos/lovemeter.jpg";
 
 class Projects extends Component {
     render() {
@@ -13,6 +14,19 @@ class Projects extends Component {
                 <h2 class="subHeadings">Projects</h2>
                 <br></br>
                 <CardColumns>
+                <Card class="zoom">
+                        <Card.Img variant="top" src={love} style={{styles:"resizeMode"}} />
+                        <Card.Body>
+                        <Card.Title>Arduino: LOVE-O-METER </Card.Title>
+                        <Card.Text>
+                            How hot are you? ;)
+                        </Card.Text>
+                        <Button href="./blog/lovemeter" target="" variant="primary">Read Me</Button>
+                        </Card.Body>
+                        <Card.Footer>
+                            <small className="text-muted">March 12, 2020</small>
+                            </Card.Footer>
+                    </Card>
                 <Card class="zoom">
                         <Card.Img variant="top" src={arduino1} style={{styles:"resizeMode"}} />
                         <Card.Body>

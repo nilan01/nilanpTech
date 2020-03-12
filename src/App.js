@@ -14,6 +14,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nasa from './Nasa';
 import Blog from './Blog';
 import Blog1 from './blog/robotics-with-arduino-uno'
+import Blog2 from './blog/lovemeter'
 
 
 class App extends Component {
@@ -60,6 +61,9 @@ class App extends Component {
      )}/>
      <Route exact path='/blog/robotics-with-arduino-uno' render={() => (
       <Blog1  />
+     )}/>
+     <Route exact path='/blog/lovemeter' render={() => (
+      <Blog2  />
      )}/>
      
 </Switch>   
