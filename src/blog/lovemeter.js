@@ -40,7 +40,7 @@ import serialMonitor from "../projectPhotos/serialMonitor.PNG"
 
                     <br></br>
                     <br></br>
-                    <p>My next project on the Arduino Uno will be to create a Color Mixing Lamp! As always if you have any questions about anything you've read or came across on my website, please do not hesistate to reach out!</p>
+                    <p>My next project on the Arduino Uno will be to create a Color Mixing Lamp! As always if you have any questions about anything you've read or came across on my website, please do not hesistate to reach out.</p>
                     <br></br>
                     N.P.
                     <br></br>
