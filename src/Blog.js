@@ -10,7 +10,7 @@ class Blog extends Component {
                 <br></br>
                 <br></br>
                 <BlogLink link={"./blog/lovemeter"}title={"LOVE-O-METER"} date={"12 Mar 2020"} desc={"How hot are you? ;)"}></BlogLink>
-                <BlogLink link={"./blog/robotics-with-arduino-uno"} title={"Learning Robotics with Arduino Uno: Circuit Basics"} date={"11 Mar 2020"} desc={"What I learned doing my first project with Arduino Uno (my first post)."}></BlogLink>
+                <BlogLink link={"./blog/robotics-with-arduino-uno"} title={"Learning Robotics with Arduino Uno: Circuit Basics!"} date={"11 Mar 2020"} desc={"What I learned doing my first project with Arduino Uno (my first post)."}></BlogLink>
             </div>
         )
     }
