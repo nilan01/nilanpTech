@@ -30,7 +30,7 @@ class Projects extends Component {
                 <Card class="zoom">
                         <Card.Img variant="top" src={arduino1} style={{styles:"resizeMode"}} />
                         <Card.Body>
-                        <Card.Title>Arduino: Circuit Basics </Card.Title>
+                        <Card.Title>Arduino: Circuit Basics! </Card.Title>
                         <Card.Text>
                             What I learned doing my first project with Arduino Uno (my first post).
                         </Card.Text>
