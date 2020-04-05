@@ -155,3 +155,9 @@ body{
   display: flex;
   margin-left:18%;
 }
+
+.Modal{
+  margin: 300px;
+  border-style: solid;
+  background-color: white;
+}

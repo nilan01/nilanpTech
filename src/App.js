@@ -1,27 +1,19 @@
 import React, { Component } from 'react';
 import './App.css';
 import Clock from './Clock';
-import ClickCounter from './ClickCounter';
-import RenderData from './RenderData';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Switch } from 'react-router-dom';
 import Projects from './Projects';
-import Writing from './Writing';
 import Contact from './Contact';
-import Footer from './Footer';
 import Nav from './Nav';
 import Navbar from 'react-bootstrap/Navbar'
-import Nasa from './Nasa';
 import Blog from './Blog';
 import Blog1 from './blog/robotics-with-arduino-uno'
 import Blog2 from './blog/lovemeter'
 
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-   
-  }
+  
 
   render() {
     return(
@@ -38,7 +30,7 @@ class App extends Component {
           Nilan Patel
         </a>
       </h3>
-      <p>Software & Quality Engineer</p>
+      <p>Software & Quality Engineer <span role="img" aria-label="astronaut">👨‍🚀</span></p>
       <Clock></Clock>
       <hr></hr>
     </header>
@@ -54,7 +46,7 @@ class App extends Component {
       <Blog  />
     )}/>
      <Route exact path='/contact' render={() => (
-      <Contact  />
+      <Contact />
      )}/>
      <Route exact path='/projects' render={() => (
       <Projects  />
@@ -69,7 +61,7 @@ class App extends Component {
 </Switch>   
 
   <footer className="d-flex justify-content-between">
-    <p>© 2020 - nilanpatel.dev</p>
+    <p>© 2020 - nilanp.tech</p>
     <p>Nilan Patel</p>
   </footer>
 </div>

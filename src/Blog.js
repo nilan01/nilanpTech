@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import BlogLink from './BlogLink';
-import Blog1 from './blog/robotics-with-arduino-uno'
 
 class Blog extends Component {
     render() {

@@ -24,7 +24,7 @@ import serialMonitor from "../projectPhotos/serialMonitor.PNG"
                         I put together the LOVE-O-METER using a TMP36 (temperature sensor) three resistors, three LEDS, and a few wires to connect these components across a breadboard, to ground, and to power.
                         </p>
                     <br></br>
-                    <img src={lovemeter2} class = "imgCenter" height="400"></img>
+                    <img src={lovemeter2} class = "imgCenter" height="400" alt="LOVE-O-METER"></img>
                     <br></br>
                     <br></br>
                     <p>
