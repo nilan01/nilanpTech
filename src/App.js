@@ -61,7 +61,7 @@ class App extends Component {
 </Switch>   
 
   <footer className="d-flex justify-content-between">
-    <p>© 2020 - nilanp.tech</p>
+    <p>© 2020 - nilanp.tech </p>
     <p>Nilan Patel</p>
   </footer>
 </div>
