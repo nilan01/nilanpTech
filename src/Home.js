@@ -25,7 +25,7 @@ class Projects extends Component {
                         <Button href="https://www.youtube.com/watch?v=_3cagePgbhs" target="_blank" variant="primary">Watch</Button>
                         </Card.Body>
                         <Card.Footer>
-                            <small className="text-muted">March 12, 2020</small>
+                            <small className="text-muted">September 17, 2020</small>
                             </Card.Footer>
                     </Card>
                 <Card class="zoom">
