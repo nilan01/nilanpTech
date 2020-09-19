@@ -3,7 +3,7 @@ import './App.css';
 import Clock from './Clock';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Switch } from 'react-router-dom';
-import Projects from './Projects';
+import Home from './Home';
 import Contact from './Contact';
 import Nav from './Nav';
 import Navbar from 'react-bootstrap/Navbar'
@@ -40,7 +40,7 @@ class App extends Component {
         
     <Switch>
     <Route exact path='/' render={() => (
-      <Projects  />
+      <Home  />
     )}/>
     <Route exact path='/blog' render={() => (
       <Blog  />
@@ -49,7 +49,7 @@ class App extends Component {
       <Contact />
      )}/>
      <Route exact path='/projects' render={() => (
-      <Projects  />
+      <Home  />
      )}/>
      <Route exact path='/blog/robotics-with-arduino-uno' render={() => (
       <Blog1  />

@@ -6,14 +6,28 @@ import tictactoe from "./projectPhotos/tictactoe.PNG";
 import nasapic from "./projectPhotos/NASA.PNG";
 import arduino1 from "./projectPhotos/arduino.jpg";
 import love from "./projectPhotos/lovemeter.jpg";
+import asp1 from "./projectPhotos/ASP.NET-Part1.jpg";
 
 class Projects extends Component {
     render() {
         return (
             <div>
-                <h2 class="subHeadings">Projects</h2>
+                <h2 class="subHeadings">Home</h2>
                 <br></br>
                 <CardColumns>
+                <Card class="zoom">
+                        <Card.Img variant="top" src={asp1} style={{styles:"resizeMode"}} />
+                        <Card.Body>
+                        <Card.Title>ASP.NET Web Development - Part 1 - Setup </Card.Title>
+                        <Card.Text>
+                            Learn how to setup your development environment for ASP.NET Web Development
+                        </Card.Text>
+                        <Button href="https://www.youtube.com/watch?v=_3cagePgbhs" target="_blank" variant="primary">Watch</Button>
+                        </Card.Body>
+                        <Card.Footer>
+                            <small className="text-muted">March 12, 2020</small>
+                            </Card.Footer>
+                    </Card>
                 <Card class="zoom">
                         <Card.Img variant="top" src={love} style={{styles:"resizeMode"}} />
                         <Card.Body>
