@@ -7,6 +7,8 @@ import nasapic from "./projectPhotos/NASA.PNG";
 import arduino1 from "./projectPhotos/arduino.jpg";
 import love from "./projectPhotos/lovemeter.jpg";
 import sterling from "./projectPhotos/sterling.jpg";
+import iOSTicket from "./projectPhotos/iOSTicket.PNG";
+import iOSWeather from "./projectPhotos/iOSWeather.PNG";
 
 class Projects extends Component {
     render() {
@@ -16,18 +18,64 @@ class Projects extends Component {
                 <br></br>
                 <CardColumns>
                 <Card class="zoom">
+                        <Card.Img variant="top" src={iOSWeather} style={{styles:"resizeMode"}} />
+                        <Card.Body>
+                        <Card.Title>iOS App Development using Swift</Card.Title>
+                        <Card.Text>
+                        <a href="https://github.com/nilan01/weatherApp_API">Link to repository</a>
+                        </Card.Text>
+                        <Card.Text>
+                            An iOS Weather application that connects to a Locations API for the user to select a city. After adding the selected city to the database, the user may then select the city to call a Weather API and GET the weather for the selected City.
+                            <br></br>
+                            <br></br>
+                            Demonstrating use of: MVC design structure in iOS Development, Core Data.
+                            <br></br>
+                            <br></br>
+                            The simulator for this application to come shortly..                       
+                        </Card.Text>
+                        
+                        </Card.Body>
+                        <Card.Footer>
+                            <small className="text-muted">November 30, 2020</small>
+                            </Card.Footer>
+                </Card>
+                <Card class="zoom">
                         <Card.Img variant="top" src={sterling} style={{styles:"resizeMode"}} />
                         <Card.Body>
                         <Card.Title>Web Consulting - Mining Industry</Card.Title>
                         <Card.Text>
-                            Professional web consulting for Sterling Metals.                             
+                            Professional web consulting for 
+                            <a href="https://firstchancedesign.com/"> First Chance Design.</a>   
+                            <br></br>
+                            <br></br>
+                            Check out the finished product by clicking the button below.                          
                         </Card.Text>
                         <Button href="https://sterlingmetals.ca/" target="_blank" variant="primary">Check it out!</Button>
                         </Card.Body>
                         <Card.Footer>
                             <small className="text-muted">October 22, 2020</small>
                             </Card.Footer>
-                    </Card>
+                </Card>
+                <Card class="zoom">
+                        <Card.Img variant="top" src={iOSTicket} style={{styles:"resizeMode"}} />
+                        <Card.Body>
+                        <Card.Title>iOS App Development using Swift</Card.Title>
+                        <Card.Text>
+                        <a href="https://github.com/nilan01/iOSTicketManager">Link to repository</a>
+                        </Card.Text>
+                        <Card.Text>
+                            A skeleton ticket managing application, demonstrating an understanding of Navigation Controllers, TableViewControllers, & the passing of data from one page to another using Segue's.
+                            <br></br>
+                            <br></br>
+                            To run this application, click the button below. Be sure to select iphone 11 Pro & iOS 14.1 before "tapping to play".                       
+                        </Card.Text>
+                        <Button href="https://appetize.io/app/g7venz10nfacd55hfzz9yw5m18" target="_blank" variant="primary">Check it out!</Button>
+
+                        </Card.Body>
+                        <Card.Footer>
+                            <small className="text-muted">October 19, 2020</small>
+                            </Card.Footer>
+                 </Card>
                 <Card class="zoom">
                         <Card.Img variant="top" src={love} style={{styles:"resizeMode"}} />
                         <Card.Body>
