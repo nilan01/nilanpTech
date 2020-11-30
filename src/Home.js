@@ -6,7 +6,7 @@ import tictactoe from "./projectPhotos/tictactoe.PNG";
 import nasapic from "./projectPhotos/NASA.PNG";
 import arduino1 from "./projectPhotos/arduino.jpg";
 import love from "./projectPhotos/lovemeter.jpg";
-import asp1 from "./projectPhotos/ASP.NET-Part1.jpg";
+import sterling from "./projectPhotos/sterling.jpg";
 
 class Projects extends Component {
     render() {
@@ -16,16 +16,16 @@ class Projects extends Component {
                 <br></br>
                 <CardColumns>
                 <Card class="zoom">
-                        <Card.Img variant="top" src={asp1} style={{styles:"resizeMode"}} />
+                        <Card.Img variant="top" src={sterling} style={{styles:"resizeMode"}} />
                         <Card.Body>
-                        <Card.Title>ASP.NET Web Development - Part 1 - Setup </Card.Title>
+                        <Card.Title>Web Consulting - Mining Industry</Card.Title>
                         <Card.Text>
-                            Learn how to setup your development environment for ASP.NET Web Development
+                            Professional web consulting for Sterling Metals.                             
                         </Card.Text>
-                        <Button href="https://www.youtube.com/watch?v=_3cagePgbhs" target="_blank" variant="primary">Watch</Button>
+                        <Button href="https://sterlingmetals.ca/" target="_blank" variant="primary">Check it out!</Button>
                         </Card.Body>
                         <Card.Footer>
-                            <small className="text-muted">September 17, 2020</small>
+                            <small className="text-muted">October 22, 2020</small>
                             </Card.Footer>
                     </Card>
                 <Card class="zoom">
