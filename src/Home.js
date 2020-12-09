@@ -9,6 +9,8 @@ import love from "./projectPhotos/lovemeter.jpg";
 import sterling from "./projectPhotos/sterling.jpg";
 import iOSTicket from "./projectPhotos/iOSTicket.PNG";
 import iOSWeather from "./projectPhotos/iOSWeather.PNG";
+import leaflab from "./projectPhotos/leaflab.PNG";
+
 
 class Projects extends Component {
     render() {
@@ -17,6 +19,25 @@ class Projects extends Component {
                 <h2 class="subHeadings">Home</h2>
                 <br></br>
                 <CardColumns>
+                <Card class="zoom">
+                        <Card.Img variant="top" src={leaflab} style={{styles:"resizeMode"}} />
+                        <Card.Body>
+                        <Card.Title>Web Consulting - Pharmaceutical Industry</Card.Title>
+                        <Card.Text>
+                        </Card.Text>
+                        <Card.Text>
+                        Professional web consulting for 
+                        <a href="https://firstchancedesign.com/"> First Chance Design.</a>   
+                        <br></br>
+                        <br></br>
+                        Check out the finished product by clicking the button below.                      
+                        </Card.Text>
+                        <Button href="https://leaflabcannabis.com/" target="_blank" variant="primary">Check it out!</Button>
+                        </Card.Body>
+                        <Card.Footer>
+                            <small className="text-muted">December 03, 2020</small>
+                            </Card.Footer>
+                </Card>
                 <Card class="zoom">
                         <Card.Img variant="top" src={iOSWeather} style={{styles:"resizeMode"}} />
                         <Card.Body>
